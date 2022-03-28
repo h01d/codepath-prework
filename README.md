@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](https://recordit.co/4qna58Q7kR)
-![](http://g.recordit.co/lEBdhR85nL.gif)
+![](https://recordit.co/HebIORTqkA)
 ![](https://recordit.co/BnTFMykeJW)
 
 ## Reflection Questions
