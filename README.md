@@ -39,8 +39,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
+General gameplay
 ![](http://g.recordit.co/4qna58Q7kR.gif)
+Utilizing each button
 ![](http://g.recordit.co/HebIORTqkA.gif)
+Showing loss after 3 mistakes
 ![](http://g.recordit.co/BnTFMykeJW.gif)
 
 ## Reflection Questions
