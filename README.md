@@ -39,9 +39,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://recordit.co/4qna58Q7kR)
-![](https://recordit.co/HebIORTqkA)
-![](https://recordit.co/BnTFMykeJW)
+![](http://g.recordit.co/4qna58Q7kR.gif)
+![](http://g.recordit.co/HebIORTqkA.gif)
+![](http://g.recordit.co/BnTFMykeJW.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
