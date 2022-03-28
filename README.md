@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 * [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [x] User has a limited amount of time to enter their guess on each turn
 
-The following **additional** features are implemented:
+The following **additional** features are not implemented:
 
 - [ ] not make it so meme ridden, maybe everyone won't get it or like it
 
