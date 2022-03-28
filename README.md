@@ -52,13 +52,13 @@ Showing loss after 3 mistakes
 [Mohanad Abu Sheikha (Software Engineer Friend) and developer.mozilla.org]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[The code became more complex and bigger, I began to lose track of it. Specifically the timer. The code also had a lot of moving parts intertwining and I learned quickly of the domino effect that comes when changing small things here and there.  I had to track these errors and bugs through console.log and then I was able to find my way back to what was giving the issues. A specific example that comes to mind is when I started my timer, I attached to it to the startGame function. I followed the logic how It was in my head. Instead of writing it down and mapping it out prior to making changes I continued to add bits of logic that I thought of here and there. After adding the setInterval function to start game I then put it in the loseGame function, again I was following the logic as I understood it, this caused an endless loop of you loseGame since I added another threshold for loss to loseGame when the timer is less than 0. The timer continued to tick down from 0 to negatives and the loseGame box kept popping up and did not allow me to do anything until I refreshed the page. This felt sloppy and I felt frustrated, however I did remember how the tutorial for this program had us use Console.log. Console.log wasn't the only thing that helped me but also deleting any unnecessary code and organizing it all really helped. The biggest lesson I learned from this challenge is that working methodically from the ground up with my code and thinking a bit ahead when formatting and setting up the program goes a long way, particularly if I used console.log for each variable in question, diagnosing the issues at hand would of been a lot faster.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[Is it always this fun? No seriously I had a blast working on this project, 10 hours went by like nothing. This to me felt like the first project I have done within this atmosphere that I could embellish a little. I understand things wont always be this cut and dry and or as simple. But getting acquainted with things to then figuring out parts of it on my own was a great way to hook my interest and keep it. Tracking down the bugs and error was frustrating for a very short time because it eventually felt like a puzzle or scavenger hunt. I really enjoyed my time with this and want more of it. Is web development, whether it be front end or back, always this exciting?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[I would of made my program supported on mobile, because I sent my program to various people and the first thing they would do was try to play it on mobile. I also would of liked to add  a feature that made the pattern infinite or really big and have an old school feeling leaderboard. I would of changed the aesthetic of the web page to match that of an old arcade cabinet (some more neon) because nostalgia. Maybe changing up the theme of my buttons from memes to be something a bit more serious would stick to the theme id want.  Adding some background music that would lightly play as you are on the webpage whether you start the game or just sit there would be what I would want as well.]
 
 
 
@@ -69,7 +69,7 @@ Showing loss after 3 mistakes
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Jarod Crush]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
