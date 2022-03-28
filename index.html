@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Light and Sound Memory Game</h1>
+    <p>
+      Welcome to my Meme Mimic Memory game! Push the corresponding button after
+      it is shown.
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+    <div id="timer"></div>
+
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="playAudio(1)">
+        <img
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/BRUH.jpg?v=1648411011015"
+        />
+        <audio
+          id="audio1"
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/BRUH.mp3?v=1648411129762"
+        ></audio>
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="playAudio(2)">
+        <img
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/rick.jpg?v=1648411016206"
+        />
+        <audio
+          id="audio2"
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/RICK.mp3?v=1648411136512"
+        ></audio>
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="playAudio(3)">
+        <img
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/SHEESH.jpg?v=1648411019598"
+        />
+        <audio
+          id="audio3"
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/SHEESH.mp3?v=1648411143328"
+        ></audio>
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="playAudio(4)">
+        <img
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/WHATTHEDOGGOIN.jpg?v=1648411023016"
+        />
+        <audio
+          id="audio4"
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/DOGDOIN.mp3?v=1648411151323"
+        ></audio>
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="playAudio(5)">
+        <img
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/YANNYVLAURELDRESS.webp?v=1648411026688"
+        />
+        <audio
+          id="audio5"
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/YANNY.mp3?v=1648411155591"
+        ></audio>
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="playAudio(6)">
+        <img
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/ye.jpg?v=1648411057970"
+        />
+        <audio
+          id="audio6"
+          src="https://cdn.glitch.global/d0012cb6-ac2a-4c9a-9db7-f282adfbe869/POOPITY.mp3?v=1648411159312"
+        ></audio>
+      </button>
+    </div>
+  </body>
+</html>
