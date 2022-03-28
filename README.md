@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] not make it so meme ridden, maybe everyone won't get it
+- [ ] not make it so meme ridden, maybe everyone won't get it or like it
 
 ## Video Walkthrough (GIF)
 
