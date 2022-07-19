@@ -62,11 +62,6 @@ Showing loss after 3 mistakes
 
 
 
-## Interview Recording URL Link
-
-[My 5-minute Interview Recording](https://www.loom.com/share/e852ed8d88fd4cd99697b2a8897b90e6)
-
-
 ## License
 
     Copyright [Jarod Crush]
